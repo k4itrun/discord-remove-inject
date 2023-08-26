@@ -1,7 +1,7 @@
 {
   "name": "discordremoveinject",
   "version": "1.0.0",
-  "description": "",
+  "description": "Con este script, puedes verificar tu aplicación de Discord y averiguar si contiene algún archivo malicioso, como una inyección que pueda interactuar con tu aplicación y enviar datos personales de tu cuenta de Discord al atacante.",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index",
