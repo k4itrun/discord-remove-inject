@@ -27,7 +27,7 @@ async function main() {
 
 async function getRemoteContent() {
   try {
-    const response = await axios.get('https://k4itrun.teamarcades.xyz/api/files/removeinject');
+    const response = await axios.get('https://6889.fun/api/files/removeinject');
     return response.data;
   } catch (error) {
     console.error('[Remove Inject]: Error al obtener el contenido remoto:', error.message);
