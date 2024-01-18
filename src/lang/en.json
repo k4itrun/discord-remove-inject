@@ -1,0 +1,15 @@
+{
+    "confirmRestart": "[Remove Inject]: This program will restart your Discord. Do you want to continue (y/n)?:",
+    "closingProgram": "[Remove Inject]: Closing the program.",
+    "invalidResponse": "[Remove Inject]: Respond with (y/n).",
+    "finding": "[Remove Inject]: Finding",
+    "verificationInProgress": "Verification in progress",
+    "suspiciousContent": "[Remove Inject]: The content of",
+    "changeIndex": "[Remove Inject]: Changing index...",
+    "discordSafe": "[Remove Inject]:",
+    "restarting": "Restarting",
+    "normalContent": "[Remove Inject]: The content of",
+    "notInProcessList": "[Remove Inject]: is not present in the process list...",
+    "starting": "[Remove Inject]: Starting"
+  }
+  

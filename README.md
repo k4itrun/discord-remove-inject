@@ -1,34 +1,34 @@
 # Discord Remove Inject
 
-Con este script, puedes verificar tu aplicación de Discord y averiguar si contiene algún archivo malicioso, como una inyección que pueda interactuar con tu aplicación y enviar datos personales de tu cuenta de Discord al atacante.
+With this script, you can check your Discord app and find out if it contains any malicious files such as an injection that can interact with your app and send personal data from your Discord account to the attacker.
 
-# Que es una inyeccion?
+# What is an injection?
 
-Una inyección maliciosa en Discord implica la inserción de código o contenido dañino en la aplicación para realizar acciones perjudiciales, como propagar malware, robar datos o alterar su funcionamiento. Esto puede comprometer la privacidad, seguridad y funcionalidad de la plataforma, y es importante tomar medidas para prevenir y protegerse contra esta amenaza.
+A malicious injection into Discord involves inserting harmful code or content into the app to perform harmful actions, such as spreading malware, stealing data, or disrupting its operation. This can compromise the privacy, security and functionality of the platform, and it is important to take measures to prevent and protect against this threat.
 
-## Requisitos
+## Requirements
 
-- Node.js instalado en tu sistema.
-- Conexión a Internet para verificar y descargar contenido actualizado.
+- Node.js installed on your system.
+- Internet connection to check and download updated content.
 
 ## Installation tutorial
 
-* Clonar el repositorio (o descargarlo manualmente):
+* Clone the repository (or download it manually):
 ```sh
 git clone https://github.com/k4itrun/DiscordRemoveInject
 ```
 
-* Instale las dependencias requeridas (ejecute el siguiente comando en el directorio raíz del codigo):
+* Install the required dependencies (run the following command in the code root directory):
 ```sh
 npm install
 ```
 
-* Ejecute el codigo:
+* Run the code:
 ```sh
 npm run start
 ```
 
-# Notas
-* Este script se proporciona tal como está y se recomienda su uso con precaución.
-* Asegúrate de tener una copia de seguridad de tus datos antes de usar el script.
-* Si encuentras problemas o errores, por favor, repórtalos en el repositorio.
+# Grades
+*This script is provided as-is and is recommended for use with caution.
+* Make sure you have a backup of your data before using the script.
+* If you find problems or bugs, please report them in the repository.
