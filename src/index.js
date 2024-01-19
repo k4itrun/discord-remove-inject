@@ -55,7 +55,7 @@ function check(path, content, regex, entry, strings) {
       }
 
       if (fs.readFileSync(currentPath, 'utf8') !== content) {
-        fs.copyFileSync(currentPath, `./file/${discord.replace("D", "d")}_index.js`);
+        fs.copyFileSync(currentPath, `./file/${discord.charAt(0).toLowerCase() + discord.slice(1)}_index_export.js`);
         console.log(`${strings.suspiciousContent} ${discord} /file/${discord}_index.js`);
         console.log(strings.changeIndex);
         fs.writeFileSync(currentPath, content);
