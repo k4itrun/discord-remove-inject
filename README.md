@@ -15,7 +15,7 @@ A malicious injection into Discord involves inserting harmful code or content in
 
 * Clone the repository (or download it manually):
 ```sh
-git clone https://github.com/k4itrun/DiscordRemoveInject
+git clone https://github.com/k4itrun/discord-remove-inject
 ```
 
 * Install the required dependencies (run the following command in the code root directory):
@@ -29,6 +29,6 @@ npm run start
 ```
 
 # Grades
-*This script is provided as-is and is recommended for use with caution.
+* This script is provided as-is and is recommended for use with caution.
 * Make sure you have a backup of your data before using the script.
 * If you find problems or bugs, please report them in the repository.
