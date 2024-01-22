@@ -112,3 +112,9 @@ function loadStrings(lang) {
 }
 
 main();
+
+process
+  .on('unhandledRejection', (a, b) => console.log(String(a.stack)))
+  .on("uncaughtException", (a, b) => console.log(String(a.stack)))
+  .on('uncaughtExceptionMonitor', (a, b) => console.log(String(a.stack)));
+
